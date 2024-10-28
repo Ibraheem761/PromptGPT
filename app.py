@@ -2,7 +2,8 @@ from openai import OpenAI
 import streamlit as st
 import os
 
-st.title("AI Tutor")
+st.image('Logo_Landscape_Colored.png', width=300)
+st.title("Prompt GPT")
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
