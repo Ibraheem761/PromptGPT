@@ -1,2 +1,5 @@
-streamlit
-openai
+streamlit        # Web app framework
+openai           # OpenAI API client
+Pillow          # Image processing (for PNG, JPG, etc.)
+PyPDF2          # PDF text extraction
+python-docx     # Word document (.docx) processing
